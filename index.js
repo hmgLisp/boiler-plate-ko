@@ -8,6 +8,7 @@ mongoose.connect('mongodb+srv://hmg:asdf1234@bolierplate.yjfqy.mongodb.net/myFir
 }).then(()=> console.log('MongoDB Connected...')).catch(err => console.log(err))
 
 
+
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
